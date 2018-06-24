@@ -24,8 +24,10 @@ class Timer extends React.Component {
 
   render() {
     return (
-      <div>
-        Seconds: {this.state.seconds}
+      <div className="row">
+        <div className="col-md-6 offset-md-3">
+          Seconds: {this.state.seconds} <hr />
+        </div>
       </div>
     );
   }
